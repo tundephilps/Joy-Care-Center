@@ -1,6 +1,7 @@
 import React from "react";
 import Hero1 from "../../public/Hero1.jpg";
 import Image from "next/image";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -24,13 +25,16 @@ const Hero = () => {
             Aging Doesn't Mean Losing Your Independence, We Can Help!
           </h1>
           <p className="mt-4 text-lg">
-            It is the sole purpose of the Calcasieu Council on Aging to
-            advocate, develop, and deliver essential services to enhance the
-            quality of life for older adults.
+            It is the sole purpose of Joy Adult Day HealthCare to advocate,
+            develop, and deliver essential services to enhance the quality of
+            life for older adults.
           </p>
-          <button className="mt-6 px-6 py-3 text-red-600 bg-white rounded-md font-medium hover:bg-gray-200">
+          <Link
+            href="/ContactUs"
+            className="mt-6 text-center  px-6 py-3 text-red-600 bg-white rounded-md font-medium hover:bg-gray-200"
+          >
             Contact Us
-          </button>
+          </Link>
         </div>
       </div>
     </div>

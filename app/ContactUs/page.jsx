@@ -1,6 +1,8 @@
 "use client";
 import Map from "@/components/Contact/Map";
 import React from "react";
+import Contact from "../../public/Contacts.jpg";
+import Image from "next/image";
 
 const ContactUs = () => {
   return (
@@ -9,10 +11,12 @@ const ContactUs = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2">
           <div className="relative flex items-end px-4 pb-10 pt-60 sm:pb-16 md:justify-center lg:pb-24 bg-gray-50 sm:px-6 ">
             <div className="absolute inset-0">
-              <img
+              <Image
                 className="object-cover w-full h-full"
-                src="https://cdn.rareblocks.xyz/collection/celebration/images/signup/4/girl-working-on-laptop.jpg"
+                src={Contact}
                 alt=""
+                width={500}
+                height={500}
               />
             </div>
             <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent"></div>
@@ -80,7 +84,7 @@ const ContactUs = () => {
                     </div>
                     <span className="text-lg font-medium text-white">
                       {" "}
-                      120+ Active Clients
+                      Dedicated Staffs
                     </span>
                   </li>
                   <li className="flex items-center space-x-3">

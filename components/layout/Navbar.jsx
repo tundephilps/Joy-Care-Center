@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
-import Logo from "../../public/Logoo.png";
+import Logo from "../../public/Logo.jpeg";
 
 function Navbar() {
   const [state, setState] = useState(false);
@@ -10,18 +10,21 @@ function Navbar() {
   const navigation = [
     { title: "Contact Us", path: "/ContactUs" },
     { title: "Services", path: "/OurServices" },
-    { title: "Guides", path: "javascript:void(0)" },
-    { title: "Partners", path: "javascript:void(0)" },
+    { title: "Testimonial", path: "javascript:void(0)" },
+    { title: "Donations", path: "javascript:void(0)" },
 
-    { title: "Terms and Conditions", path: "javascript:void(0)" },
+    { title: "Terms and Conditions", path: "/Terms" },
   ];
 
   return (
     <nav className="bg-white w-full border-b md:border-0 md:static">
       <div className="items-center px-4 lg:px-12 mx-auto md:flex md:px-8">
-        <div className="flex items-center justify-between py-3 md:py-5 md:block">
-          <a href="/">
-            <Image src={Logo} width={120} height={50} alt="Float UI logo" />
+        <div className="flex items-center justify-between py-3 md:py-2 md:block">
+          <a className="items-center flex flex-col" href="/">
+            <Image src={Logo} width={50} height={50} alt="Float UI logo" />
+            <p className="text-red-500 font-extrabold text-2xl font-serif italic">
+              WE CARE
+            </p>
           </a>
           <div className="md:hidden">
             <button

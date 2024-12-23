@@ -1,6 +1,6 @@
 import { HiOutlineMail } from "react-icons/hi";
 
-import Logo from "../../public/Logoo.png";
+import Logo from "../../public/Logo.jpeg";
 import Image from "next/image";
 
 const Footer = () => {
@@ -8,15 +8,12 @@ const Footer = () => {
     <footer className="bg-black text-white py-14 overflow-x-clip">
       <div className=" lg:px-12 px-4 mx-auto flex lg:flex-row flex-col gap-6 justify-between lg:items-center items-start">
         {/* Left Section */}
-        <div className="flex flex-row items-start space-x-4">
-          <Image src={Logo} width={120} height={50} alt="Float UI logo" />
-          <div>
-            <h2 className="text-lg font-semibold">Joy CareGivers</h2>
-            <p className="text-xs text-gray-400">
-              Elderly Care is our topmost Priority
-            </p>
-          </div>
-        </div>
+        <a className="items-center flex flex-col" href="/">
+          <Image src={Logo} width={80} height={80} alt="Float UI logo" />
+          <p className="text-red-500 font-extrabold text-2xl font-serif italic">
+            WE CARE
+          </p>
+        </a>
 
         {/* Right Section */}
         <div className="flex flex-col items-start  space-y-4">

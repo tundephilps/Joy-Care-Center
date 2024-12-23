@@ -42,8 +42,8 @@ const OurServices = () => {
             <MdOutlineLocalHospital className="text-red-500 w-10 h-10 mb-4" />
             <h3 className="font-semibold text-xl mb-2">Nursing Supervision</h3>
             <p className="text-gray-500 text-sm text-start">
-              24/7 professional nursing care ensuring health monitoring and
-              medical assistance when needed.
+              Professional nursing care ensuring health monitoring and medical
+              assistance when needed.
             </p>
           </div>
           {/* Feature 2 */}
