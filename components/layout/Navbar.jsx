@@ -13,6 +13,7 @@ function Navbar() {
     { title: "Testimonial", path: "javascript:void(0)" },
     { title: "Donations", path: "javascript:void(0)" },
 
+    { title: "Events", path: "javascript:void(0)" },
     { title: "Terms and Conditions", path: "/Terms" },
   ];
 

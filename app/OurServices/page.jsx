@@ -36,9 +36,9 @@ const OurServices = () => {
         </p>
 
         {/* Features */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 ">
           {/* Feature 1 */}
-          <div className="flex flex-col items-start">
+          <div className="flex flex-col items-start cursor-pointer hover:bg-gray-200 rounded-md p-2 ">
             <MdOutlineLocalHospital className="text-red-500 w-10 h-10 mb-4" />
             <h3 className="font-semibold text-xl mb-2">Nursing Supervision</h3>
             <p className="text-gray-500 text-sm text-start">
@@ -47,7 +47,7 @@ const OurServices = () => {
             </p>
           </div>
           {/* Feature 2 */}
-          <div className="flex flex-col items-start">
+          <div className="flex flex-col items-start cursor-pointer hover:bg-gray-200 rounded-md p-2">
             <FaPills className="text-red-500 w-10 h-10 mb-4" />
             <h3 className="font-semibold text-xl mb-2">
               Medication Management
@@ -58,7 +58,7 @@ const OurServices = () => {
             </p>
           </div>
           {/* Feature 3 */}
-          <div className="flex flex-col items-start">
+          <div className="flex flex-col items-start cursor-pointer hover:bg-gray-200 rounded-md p-2">
             <FaUserFriends className="text-red-500 w-10 h-10 mb-4" />
             <h3 className="font-semibold text-xl mb-2">Social Work</h3>
             <p className="text-gray-500 text-sm text-start">
@@ -67,7 +67,7 @@ const OurServices = () => {
             </p>
           </div>
           {/* Feature 4 */}
-          <div className="flex flex-col items-start">
+          <div className="flex flex-col items-start cursor-pointer hover:bg-gray-200 rounded-md p-2">
             <FaGamepad className="text-red-500 w-10 h-10 mb-4" />
             <h3 className="font-semibold text-xl mb-2">
               Recreational Activities
@@ -78,7 +78,7 @@ const OurServices = () => {
             </p>
           </div>
           {/* Feature 5 */}
-          <div className="flex flex-col items-start">
+          <div className="flex flex-col items-start cursor-pointer hover:bg-gray-200 rounded-md p-2">
             <FaUsers className="text-red-500 w-10 h-10 mb-4" />
             <h3 className="font-semibold text-xl mb-2">
               Group & Individual Activities
@@ -89,7 +89,7 @@ const OurServices = () => {
             </p>
           </div>
           {/* Feature 6 */}
-          <div className="flex flex-col items-start">
+          <div className="flex flex-col items-start cursor-pointer hover:bg-gray-200 rounded-md p-2">
             <FaGraduationCap className="text-red-500 w-10 h-10 mb-4" />
             <h3 className="font-semibold text-xl mb-2">Education</h3>
             <p className="text-gray-500 text-sm text-start">
@@ -97,7 +97,7 @@ const OurServices = () => {
             </p>
           </div>
           {/* Feature 7 */}
-          <div className="flex flex-col items-start">
+          <div className="flex flex-col items-start cursor-pointer hover:bg-gray-200 rounded-md p-2">
             <FaComments className="text-red-500 w-10 h-10 mb-4" />
             <h3 className="font-semibold text-xl mb-2">Counseling</h3>
             <p className="text-gray-500 text-sm text-start">
@@ -106,7 +106,7 @@ const OurServices = () => {
             </p>
           </div>
           {/* Feature 8 */}
-          <div className="flex flex-col items-start">
+          <div className="flex flex-col items-start cursor-pointer hover:bg-gray-200 rounded-md p-2">
             <FaRunning className="text-red-500 w-10 h-10 mb-4" />
             <h3 className="font-semibold text-xl mb-2">Exercise</h3>
             <p className="text-gray-500 text-sm text-start">
@@ -115,7 +115,7 @@ const OurServices = () => {
             </p>
           </div>
           {/* Feature 9 */}
-          <div className="flex flex-col items-start">
+          <div className="flex flex-col items-start cursor-pointer hover:bg-gray-200 rounded-md p-2">
             <FaCalendarCheck className="text-red-500 w-10 h-10 mb-4" />
             <h3 className="font-semibold text-xl mb-2">Reality Orientation</h3>
             <p className="text-gray-500 text-sm text-start">
@@ -124,7 +124,7 @@ const OurServices = () => {
             </p>
           </div>
           {/* Feature 10 */}
-          <div className="flex flex-col items-start">
+          <div className="flex flex-col items-start cursor-pointer hover:bg-gray-200 rounded-md p-2">
             <FaWalking className="text-red-500 w-10 h-10 mb-4" />
             <h3 className="font-semibold text-xl mb-2">Community Outing</h3>
             <p className="text-gray-500 text-sm text-start">
@@ -132,7 +132,7 @@ const OurServices = () => {
             </p>
           </div>
           {/* Feature 11 */}
-          <div className="flex flex-col items-start">
+          <div className="flex flex-col items-start cursor-pointer hover:bg-gray-200 rounded-md p-2">
             <FaCoffee className="text-red-500 w-10 h-10 mb-4" />
             <h3 className="font-semibold text-xl mb-2">
               Morning and Afternoon Snack
@@ -142,7 +142,7 @@ const OurServices = () => {
             </p>
           </div>
           {/* Feature 12 */}
-          <div className="flex flex-col items-start">
+          <div className="flex flex-col items-start cursor-pointer hover:bg-gray-200 rounded-md p-2">
             <FaUtensils className="text-red-500 w-10 h-10 mb-4" />
             <h3 className="font-semibold text-xl mb-2">
               Hot Nutritional Lunch
@@ -153,7 +153,7 @@ const OurServices = () => {
             </p>
           </div>
           {/* Feature 13 */}
-          <div className="flex flex-col items-start">
+          <div className="flex flex-col items-start cursor-pointer hover:bg-gray-200 rounded-md p-2">
             <FaBus className="text-red-500 w-10 h-10 mb-4" />
             <h3 className="font-semibold text-xl mb-2">
               Transportation Provided
